@@ -18,3 +18,7 @@ PLATFORM=$(uname -s)_$ARCH
 curl -sLO "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 sudo mv /tmp/eksctl /usr/local/bin
+
+# Terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
