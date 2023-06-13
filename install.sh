@@ -22,3 +22,4 @@ sudo mv /tmp/eksctl /usr/local/bin
 # Terraform
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
+terraform -install-autocomplete
